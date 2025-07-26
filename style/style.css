@@ -151,7 +151,7 @@ button{
 }
 
 .plant-scetion{
-    background-image:url(..\assets/flower-store.png);
+    background-image:url('../assets/flower-store.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -183,7 +183,7 @@ button{
     height: 400px;
     /* top: 50px; */
     /* left: -20px; */
-    margin-top: 52px; */
+    margin-top: 52px; 
 
 }
 .display, li{
@@ -408,8 +408,8 @@ img{
 }
 
 
- Mobile
-@media  (max-width: 480px) {
+ /* mobile */
+@media screen and(max-width: 480px) {
     .banner-tittle {
         font-size: 30px;
     }
