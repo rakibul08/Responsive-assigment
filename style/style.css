@@ -106,33 +106,115 @@ ul{
     font-size: 22px;
 font-weight: 400;
 
-}
 
-   /* card-box */
+ }
+
+   card-box
  img{
     width: auto;
 height: 300px;
 }
 .card{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    margin:20px 75px;
-    width: auto;
-    height: 300px;
+    display:grid;
+     grid-template-columns: repeat(4,1fr); 
+     gap:20px; 
+    margin:20px 71px;
+   max-width: 1140;
+    height: auto;
+    justify-items: center;
+   
+    
 }
 .card-box{
     text-align: center;
     
+    
 }
 button{
-    padding: 20px 69px;
+    padding: 20px 76px;
     color:#FFFFFF ;
     background-color:#E95A08 ;
     font-size: 16px;
     font-weight: 600;
 
+/* plant-lover */
+
+} .plant{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    /* margin: 0 50px; */
+    margin-top: 100px 50px;
+
+    /* position: absolute; */
 }
+
+.plant-scetion{
+    background-image:url(/assets/flower-store.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     margin-top: 49px; 
+    width: 540px;
+    height: 539px;
+    justify-content: space-between;
+    /* align-items: center;
+    justify-items: center;
+    justify-content: space-around; */
+
+    
+}
+.plant-tittle{
+    text-align: left;
+   /* top: 0px;
+   left: -45; */
+    width: 363px;
+    height: auto;
+    /* height: 521px; */
+}
+.badge-img{
+    position: absolute;
+    top: -110px;
+   right:-52px;
+    width: 140px;
+    height: auto;
+    /* width: auto;
+    height: 400px;
+    /* top: 50px; */
+    /* left: -20px; */
+    margin-top: 52px; */
+
+}
+.display, li{
+    gap: 200px;
+}
+.tittle{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.plant-tittle ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.plant-tittle li{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+/* .product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.product-card{
+    border: 1px solid ;
+    padding: 10px;
+    text-align: center;
+} */
 
 
 
@@ -145,6 +227,7 @@ button{
         justify-content: space-between;
 
     }
+
    
 
     ul {
@@ -192,11 +275,32 @@ img{
         width: 100px;
         
     }
+    .plant{
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .plant-scetion,
+    .plant-scetion{
+        width: 100%;
+        max-width: 90%;
+    }
+    .plant-tittle{
+        padding-top: 20px;
+        text-align: center;
+    }
 
+    .tittle{
+        font-size: 32px;
+     
+    } 
+    .badge-img{
+        display: none;
+    }
 }
 
-Mobile
-@media (max-width: 480px) {
+ Mobile
+@media  (max-width: 480px) {
     .banner-tittle {
         font-size: 30px;
     }
@@ -211,5 +315,9 @@ Mobile
 
     ul {
         gap: 10px;
+    }
+    
+    .card {
+        grid-template-columns: 1fr;
     }
 } 
