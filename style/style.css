@@ -151,7 +151,7 @@ button{
 }
 
 .plant-scetion{
-    background-image:url(/assets/flower-store.png);
+    background-image:url(./assets/flower-store.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
