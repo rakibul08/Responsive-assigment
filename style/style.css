@@ -214,9 +214,9 @@ button{
 
 .deal-section {
   padding: 40px 20px;
-  background-color: #f2f6fc;
-  font-family: Arial, sans-serif;
+  
   text-align: center;
+  margin-top:50px;
 }
 
 /* Heading */
@@ -237,7 +237,7 @@ button{
   margin: 0 auto 40px;
 }
 
-/* Layout */
+/*grid-Layout */
 .deal-grid {
   display: flex;
   gap: 20px;
@@ -260,7 +260,7 @@ button{
   max-width: 600px;
 }
 
-/* Card Styling */
+/* deal-card*/
 .deal-card {
   position: relative;
   border-radius: 12px;
@@ -278,8 +278,8 @@ button{
   object-fit: cover;
 }
 
-/* Overlay Text */
-.overlay {
+/* offer-Text */
+.offer {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -292,7 +292,7 @@ button{
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  
 }
 
 .overlay a {
